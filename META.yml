@@ -1,0 +1,28 @@
+---
+abstract: DateTimeX-Factory
+author:
+  - 'takuji@senchan.jp <takuji@senchan.jp>'
+build_requires:
+  Test::LoadAllModules: 0.02
+  Test::More: 0.96
+configure_requires:
+  Module::Build: 0.38
+dynamic_config: 1
+generated_by: 'Module::Build version 0.38, CPAN::Meta::Converter version 2.112150'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: DateTimeX-Factory
+provides:
+  DateTimeX::Factory:
+    file: lib/DateTimeX/Factory.pm
+    version: 0.01
+requires:
+  Data::Validator: 0.05
+  DateTime: 0
+  DateTime::TimeZone: 0
+  Mouse: 0
+resources:
+  license: http://dev.perl.org/licenses/
+version: 0.01
