@@ -29,6 +29,8 @@
          "requires" : {
             "Data::Validator" : "0.05",
             "DateTime" : 0,
+            "DateTime::Format::MySQL" : 0,
+            "DateTime::Format::Strptime" : 0,
             "DateTime::TimeZone" : 0,
             "Mouse" : 0
          }
@@ -37,7 +39,7 @@
    "provides" : {
       "DateTimeX::Factory" : {
          "file" : "lib/DateTimeX/Factory.pm",
-         "version" : "0.01"
+         "version" : "0.02"
       }
    },
    "release_status" : "stable",
@@ -46,5 +48,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.01"
+   "version" : "0.02"
 }
