@@ -17,7 +17,10 @@ name: DateTimeX-Factory
 provides:
   DateTimeX::Factory:
     file: lib/DateTimeX/Factory.pm
-    version: 0.02
+    version: 0.03
+  DateTimeX::Factory::Declare:
+    file: lib/DateTimeX/Factory/Declare.pm
+    version: 0
 requires:
   Data::Validator: 0.05
   DateTime: 0
@@ -27,4 +30,4 @@ requires:
   Mouse: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.02
+version: 0.03

@@ -39,7 +39,11 @@
    "provides" : {
       "DateTimeX::Factory" : {
          "file" : "lib/DateTimeX/Factory.pm",
-         "version" : "0.02"
+         "version" : "0.03"
+      },
+      "DateTimeX::Factory::Declare" : {
+         "file" : "lib/DateTimeX/Factory/Declare.pm",
+         "version" : 0
       }
    },
    "release_status" : "stable",
@@ -48,5 +52,5 @@
          "http://dev.perl.org/licenses/"
       ]
    },
-   "version" : "0.02"
+   "version" : "0.03"
 }
