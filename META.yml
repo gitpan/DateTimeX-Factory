@@ -28,7 +28,7 @@ no_index:
 provides:
   DateTimeX::Factory:
     file: lib/DateTimeX/Factory.pm
-    version: v0.10.0
+    version: 1.00
 requires:
   Class::Accessor::Lite: 0.04
   DateTime: 0
@@ -38,6 +38,6 @@ resources:
   bugtracker: https://github.com/takuji31/DateTimeX-Factory/issues
   homepage: https://github.com/takuji31/DateTimeX-Factory
   repository: git://github.com/takuji31/DateTimeX-Factory
-version: 0.10.0
+version: 1.00
 x_contributors:
   - 'Nishibayashi Takuji <takuji@senchan.jp>'
